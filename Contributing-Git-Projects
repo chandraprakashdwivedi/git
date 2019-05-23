@@ -24,10 +24,13 @@ This will fetch code to your local
 
 6. Now everytime when you want to sync code to your branch.
 
-#git checkout -b cp
-#git fetch --all
+#git pull upstream master
 
-7. To commit changes 
+#git checkout -b cp upstream/development
+
+
+7. To commit and give pull request (PR) for changes.
 
 #git add . && git commit -am "[YOUR COMMIT NOTES]" && git push origin [BRANCH_NAME] 
 
+#git request-pull development  cp
