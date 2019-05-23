@@ -40,6 +40,6 @@ This will fetch code to your local
 
 #git add . && git commit -am "[YOUR COMMIT NOTES]" && git push origin [BRANCH_NAME] 
 
-#git request-pull development  cp   
+#git request-pull master upstream   //not working need to give the pull request from UI
 
  Where cp is your branch from which you are giving the pull request
