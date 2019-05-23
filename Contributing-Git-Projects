@@ -1,6 +1,6 @@
 1. Fork the repository
 
-2. Set up ssh keys for your git account.
+2. Set up login and ssh keys for your git account.
 
 3. Clone repository to your machine.
 
@@ -30,15 +30,16 @@ This will fetch code to your local
 
 6. Now everytime when you want to sync code to your branch.
 
-#git fetch upstream 
+#git fetch --all 
 
-#git merge upstream/master
+#git checkout origin development
 
-#git checkout -b cp upstream/development
-
+#git pull upstream development
 
 7. To commit and give pull request (PR) for changes.
 
 #git add . && git commit -am "[YOUR COMMIT NOTES]" && git push origin [BRANCH_NAME] 
 
-#git request-pull development  cp
+#git request-pull development  cp   
+
+ Where cp is your branch from which you are giving the pull request
