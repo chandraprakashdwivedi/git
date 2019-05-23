@@ -14,9 +14,9 @@ This will fetch code to your local
 
  #git fetch --all
  
- #git checkout origin development
+ #git checkout origin development  #To change your current origin
  
- #git pull development 
+ #git pull upstream development    #To fetch out code for the particular branch
  
  or create your local branch and copy on that 
  
