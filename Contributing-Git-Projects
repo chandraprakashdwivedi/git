@@ -12,7 +12,13 @@
 
 This will fetch code to your local
 
- #git fetch upstream
+ #git fetch --all
+ 
+ #git checkout origin development
+ 
+ #git pull development 
+ 
+ or create your local branch and copy on that 
  
   #git checkout -b cp upstream/development
   
