@@ -1,0 +1,33 @@
+1. Fork the repository
+
+2. Set up ssh keys for your git account.
+
+3. Clone repository to your machine.
+
+4. create your own branch and set upstream to the remote repository.
+
+ #git remote add upstream git@github.com:remote-repository/repo.git
+ 
+ #git remote -v
+
+This will fetch code to your local
+
+ #git fetch upstream
+ 
+  #git checkout -b cp upstream/development
+  
+  Where development is the remote branch which you are copying to you 'cp' branch
+  
+5. Now checkout to your branch and work on that.
+
+#git checkout -b cp
+
+6. Now everytime when you want to sync code to your branch.
+
+#git checkout -b cp
+#git fetch --all
+
+7. To commit changes 
+
+#git add . && git commit -am "[YOUR COMMIT NOTES]" && git push origin [BRANCH_NAME] 
+
