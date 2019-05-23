@@ -24,7 +24,9 @@ This will fetch code to your local
 
 6. Now everytime when you want to sync code to your branch.
 
-#git pull upstream master
+#git fetch upstream 
+
+#git merge upstream/master
 
 #git checkout -b cp upstream/development
 
