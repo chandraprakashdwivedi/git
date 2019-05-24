@@ -26,6 +26,9 @@ This will fetch code to your local
   
 5. Now checkout to your branch and work on that.
 
+#git checkout development
+
+or if you have your own local branch
 #git checkout -b cp
 
 6. Now everytime when you want to sync code to your branch.
